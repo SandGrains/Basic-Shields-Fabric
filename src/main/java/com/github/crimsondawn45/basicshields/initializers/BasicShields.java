@@ -90,10 +90,10 @@ public class BasicShields implements ModInitializer {
 		gobber =		new GobberModule(		CONFIG.always_load_gobber, 		"gobber2");
 		alexandrite =	new AlexandriteModule(	CONFIG.always_load_alexandrite, "more_gems");
 		amethyst =		new AmethystModule(     CONFIG.always_load_amethyst,	true, "emerald_tools", "gemsandcrystals", "amethystequipment");
-		bronze = 		new BronzeModule(		CONFIG.always_load_bronze, 		"techreborn", "astromine", "mythicmetals", "texp", "mw", "modern_industrialization", "indrev");
+		bronze = 		new BronzeModule(		CONFIG.always_load_bronze, 		"techreborn", "astromine", "mythicmetals", "texp", "mw", "modern_industrialization", "indrev", "alloygery");
 		carbonado =		new CarbonadoModule(	CONFIG.always_load_carbonado, 	"more_gems");
 		citrine = 		new CitrineModule(		CONFIG.always_load_citrine, 	"more_gems");
-		copper = 		new CopperModule(		CONFIG.always_load_copper,		true, "emerald_tools", "copperarmorandtools", "copperequipment");
+		copper = 		new CopperModule(		CONFIG.always_load_copper,		true, "emerald_tools", "copperarmorandtools", "copperequipment", "alloygery");
 		corundum = 		new CorundumModule(     CONFIG.always_load_corundum, 	"more_gems");
 		emerald =		new EmeraldModule(		CONFIG.always_load_emerald, 	true, "emerald_tools", "gemsandcrystals", "enriched", "emeraldequipment");
 		kunzite =		new KunziteModule(      CONFIG.always_load_kunzite, 	"more_gems");
@@ -104,7 +104,7 @@ public class BasicShields implements ModInitializer {
 		ruby =			new RubyModule(			CONFIG.always_load_ruby, 		"techreborn", "emerald_tools", "gemsandcrystals", "enriched");
 		sapphire = 		new SapphireModule(		CONFIG.always_load_sapphire,	"techreborn", "more_gems", "gemsandcrystals", "enriched");
 		spinel = 		new SpinelModule(       CONFIG.always_load_spinel, 		"more_gems");
-		steel =			new SteelModule(		CONFIG.always_load_steel, 		"astromine", "emerald_tools", "indrev", "modern_industrialization", "mw", "mythicmetals", "techreborn", "enriched");
+		steel =			new SteelModule(		CONFIG.always_load_steel, 		"astromine", "emerald_tools", "indrev", "modern_industrialization", "mw", "mythicmetals", "techreborn", "enriched", "alloygery");
 		tanzanite =		new TanzaniteModule(	CONFIG.always_load_tanzanite, 	"enriched");
 		topaz =			new TopazModule(        CONFIG.always_load_topaz, 		"more_gems", "gemsandcrystals");
 		tourmaline =	new TourmalineModule(   CONFIG.always_load_tourmaline, 	"more_gems");
