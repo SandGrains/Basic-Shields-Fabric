@@ -34,7 +34,7 @@ public class BasicShieldsConfig implements ConfigData {
     @ConfigEntry.Category("stats")
     public int vanilla_golden_shield_enchantability =       22;
     @ConfigEntry.Category("stats")
-    public int vanilla_golden_shield_cooldown =             100;
+    public int vanilla_golden_shield_cooldown =             70;
         //Diamond
     @ConfigEntry.Category("stats")
     public int vanilla_diamond_shield_durability =          2098;
